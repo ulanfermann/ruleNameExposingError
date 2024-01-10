@@ -1,0 +1,6 @@
+plop-templates
+src/main/webpack/core-components/
+src/main/webpack/styles/reset.scss
+src/main/webpack/site/scss/_grid.scss
+src/main/webpack/site/scss/_mixins.scss
+src/main/webpack/site/scss/_normalize.scss

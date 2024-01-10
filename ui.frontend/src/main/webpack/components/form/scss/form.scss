@@ -1,0 +1,39 @@
+.cmp-form {
+  border: 1px solid grey;
+  margin-bottom: rem(30);
+  padding: rem(20);
+
+  .cmp-form-text {
+    margin-bottom: 30px;
+    font-weight: bold;
+
+    label {
+      clear: both;
+      display: block;
+    }
+
+    .cmp-form-text__text,
+    .cmp-form-text__textarea {
+      width: 100%;
+      border: 1px solid grey;
+    }
+  }
+
+  .cmp-form-button {
+    background-color: blue;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: white;
+    cursor: pointer;
+    padding: rem(6) rem(15);
+
+    &:hover {
+      background-color: red;
+    }
+  }
+
+  #recaptcha {
+    margin-bottom: rem(30);
+  }
+}
